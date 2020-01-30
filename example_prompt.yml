@@ -1,0 +1,6 @@
+-
+  body: Hello This is your daily assessment, what is your temperature?
+  question_type: "numeric"
+-
+  body: Are you experiencing any symptoms including cough, sore throat, difficulty breathing, headaches, muscle aches, abdominal discomfort, vomiting or diarrhea?
+  question_type: "yesno"
