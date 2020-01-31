@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
-     <Say>voice="woman" Hello this is Sara calling for your daily assessment</Say>
+     <Say voice="woman"> Hello this is Sara calling for your daily assessment</Say>
      <Gather input="speech dtmf" timeout="10" numDigits="1">
-         <Say> voice="woman" Please say yes or enter 1 if you are experiencing any of the following symptoms</Say>
-        <Say>voice="woman" Cough, sore throat, difficulty breathing, headaches, muscle aches, abdominal discomfort, vomiting or diarrhea?</Say>
+         <Say voice="woman"> Please say yes or enter 1 if you are experiencing any of the following symptoms</Say>
+        <Say voice="woman"> Cough, sore throat, difficulty breathing, headaches, muscle aches, abdominal discomfort, vomiting or diarrhea?</Say>
      </Gather>
 </Response>
