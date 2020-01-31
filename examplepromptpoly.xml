@@ -2,7 +2,7 @@
 <Response>
      <Say voice="Polly.Joanna"> Hello this is Sara calling for your daily assessment</Say>
      <Say voice="Polly.Joanna"> Please say yes or enter 1 if you are experiencing any of the following symptoms</Say>
-     <Gather input="speech dtmf" timeout="10" numDigits="1" action="https://webhook.site/9884d780-fc59-4eba-a56a-40be80e42afb" actionOnEmptyResult="true">
+     <Gather input="dtmf" timeout="10" numDigits="1" action="https://webhook.site/9884d780-fc59-4eba-a56a-40be80e42afb" actionOnEmptyResult="true">
         <Say voice="Polly.Joanna"> Cough, sore throat, difficulty breathing, headaches, muscle aches, abdominal discomfort, vomiting or diarrhea?</Say>
      </Gather>
 </Response>
